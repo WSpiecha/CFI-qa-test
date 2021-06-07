@@ -23,4 +23,4 @@ Parameter|Description
 ---|---
 page|A cursor for use in pagination. Started from 1.
 limit|A limit on the number of objects to be returned. Limit can range between 1 and 10, and the default is 2.
-order|Sort objects by id. Allowed values `asc` and `desc`.
+sort|Sort objects by id. Allowed values `asc` and `desc`.
