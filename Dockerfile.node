@@ -8,5 +8,5 @@ RUN apt-get update && apt-get install -y \
   git \
   unzip
 
-COPY ./entrypoint.sh /tmp/entrypoint.sh
+COPY ./app/entrypoint.sh /tmp/entrypoint.sh
 ENTRYPOINT sh /tmp/entrypoint.sh
