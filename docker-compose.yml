@@ -6,8 +6,8 @@ services:
   qa-api:
     container_name: qa-api
     build:
-      context: ./app
-      dockerfile: $PWD/Dockerfile.node
+      # context: ./app
+      dockerfile: ./Dockerfile.node 
     volumes:
       - ./app:/app
     ports:
