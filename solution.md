@@ -23,7 +23,7 @@ As endpoint is buggy and not all necessary info is given, tests are created base
 
 - if limit < 1 display default number of results (2)
 - if limit > 10 display 10 results
-- as no /post endpoint exist, we assume courses are already created. Tests use courses in courses.json file. Some of which are hard coded into testcases. That is far from optimal but again, no endpoint to post custom courses per testcase/test suite.
+- as no /post endpoint exist, courses from file courses.json were used and assumed to remain unchanged
 
 Testcases fail for following reasons:
 - 'checks default request' => testcase assumes its on first page, on which it should be (it is on page 1) but in fact first page is page 0 (this is not congruent with endpoint description)
